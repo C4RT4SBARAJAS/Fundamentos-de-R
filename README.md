@@ -1,2 +1,9 @@
-# Fundamentos-de-R
-En este curso vamos aprende a manejar los datos a traves de este lenguaje de programación estadístico que se llama R 
+# Fundamentos de R
+En este curso vamos aprende a manejar los datos a traves de este lenguaje de programación estadístico que se llama R. Vamos a hacer análisis, vamos a hacer visualizaciones y todo a partir del manejo de dos data sets, uno que se llama mtcars, que está dentro de R, es un paquete muy sencillo, y otro data set que se llama economía naranja, el cual tiene información sobre económia naranja de los países de Latinoamerica, información económica muy rica para jugar con ella, porque vamos a manejar esta información para responder algunas preguntas que están en nuestro proyecto final. Entonces durante todo el curso vamos a responde preguntas tanto de data set de mtcars como de economía naranja.
+
+Para este curso utilizaremos dos datasets:
+- mtcars: un dataset incluido dentro de R con información sobre coches.
+- orangeec: un dataset generado por la profesora de Plazi, en su curso original, sobre la economía naranja.
+
+## Programación y Data Science
+Antes de descargar R y RStudio, y escribir nuestras primeras lineas de código. Vamos a hablar de Data Science o Ciencia de Datos. ¿Por qué aprender Ciencia de Datos? La Ciencia de datos es muy útil tanto para las personas que están en el mundo social, personas en marketing o personas que están en periodismo, o ingenieros, programadores que están en esta parte de ciencias exactas y que también necesitan manejar la parte de análisis de datos. ¿Por qué? Resulta que en este momento ya los programadores les están trabajando muy de la mano con los Científicos de Datos, porque los programadores son los que diseñan las interfaces donde se capturan los datos, y son los datos la materia prima de los Científicos de Datos, y ademas, los datos si los sabemos manejar, y más adelante a un nivel más avanzado y hacer algo de Machine Learning, esas reglas harán que nuestro software se mejore automáticamente, y valla generando nuevas versiones. Así que es muy importante para un programdores.
