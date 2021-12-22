@@ -65,7 +65,7 @@ El **dataset de economía naranja** fue **creado con las siguientes variables:**
 Para el curso **vamos a necesitar:**
 - **[R](https://cran.r-project.org/ "R")**
 - **[RStudio](https://www.rstudio.com/products/rstudio/download/ "RStudio")**
-- **[El dataset de Orange Economy](https://github.com/sap0408/Orange-Economy "El dataset de Orange Economy")**
+- **[Dataset de Orange Economy](https://github.com/C4RT4SBARAJAS/Fundamentos-de-R "Dataset de Orange Economy")**
 
 **Click en los links para descargarlos.**
 
