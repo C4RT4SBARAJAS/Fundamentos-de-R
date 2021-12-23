@@ -73,7 +73,7 @@ Para el curso **vamos a necesitar:**
 
 *RStudio es la interfaz amigable que nos permite escribir el código en una forma mucho más facíl e indentíficar los errores mucho más rápido.* 
 
-Orange Economy tiene las siguientes 13 variables:
+Orange Economy tiene las siguientes **13 variables**:
 1. **Country (País)**
 2. **GDP PC (PIP Pércapita)**
 3. **GDP US bill (PIP en billones de dalares de cada país)**
@@ -89,7 +89,9 @@ Orange Economy tiene las siguientes 13 variables:
 13. **Education invest % GDP ()**
 
 # Importar un Dataset dentro de RStudio
-Para importar un dataset dentro de RStudio nos dirigimos a **Environment** > **From Text (base)** > En la opción **Name** nombrar como **orangeec**, en la opción  **Heading** colocar **Yes**, verán como selecciona los **Row Headers correctos**. De lo contrario les aparecerá V1, V2, V3, V4,… como Row Headers y se les hará mas complicado utilizar el Dataset.
+Para importar un dataset dentro de RStudio nos dirigimos a **Environment** > **From Text (base)** > En la opción **Name** nombrar como **orangeec** > En la opción  **Heading** colocar **Yes**, verán como selecciona los **Row Headers correctos**. De lo contrario les aparecerá V1, V2, V3, V4,… como Row Headers y se les hará mas complicado utilizar el Dataset > Dejar los demás valores por defecto > **Click en Import**.
+
+Ahora nuestro Dataset esta agregado en el **Ambiente de trabajo** de RStudio bajo el nombre de **arongeec** y está listo para usarse.
 
 # Crear un Script en RStudio
 Para crear un Script en RStudio nos dirigimos a **File** > **New File** > **R Script**. 
