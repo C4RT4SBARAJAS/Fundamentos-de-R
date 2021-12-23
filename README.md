@@ -74,19 +74,19 @@ Para el curso **vamos a necesitar:**
 *RStudio es la interfaz amigable que nos permite escribir el código en una forma mucho más facíl e indentíficar los errores mucho más rápido.* 
 
 Orange Economy tiene las siguientes 13 variables:
-1. Country (País)
-2. GDP PC (PIP Pércapita)
-3. GDP US bill (PIP en billones de dalares de cada país)
-4. GDP Growth % (Crecimiento del PIP en cada país)
-5. Services % GDP (Aporte de los servicios al PIP)
-6. Creat Ind % GDP (Aporte de las Industrias creativas o de la Economía naranja)
-7. Inflation (Inflación)
-8. Unemployment (Desempleo)
-9. % pop below poverty line (% de la población por debajo de la línea de pobreza)
-10. Internet penetration % population (Penetración de internet)
-11. Median age ()
-12. % pop 25-54 ()
-13. Education invest % GDP ()
+1. **Country (País)**
+2. **GDP PC (PIP Pércapita)**
+3. **GDP US bill (PIP en billones de dalares de cada país)**
+4. **GDP Growth % (Crecimiento del PIP en cada país)**
+5. **Services % GDP (Aporte de los servicios al PIP)**
+6. **Creat Ind % GDP (Aporte de las Industrias creativas o de la Economía naranja)**
+7. **Inflation (Inflación)**
+8. **Unemployment (Desempleo)**
+9. **% pop below poverty line (% de la población por debajo de la línea de pobreza)**
+10. **Internet penetration % population (Penetración de internet)**
+11. **Median age ()**
+12. **% pop 25-54 ()**
+13. **Education invest % GDP ()**
 
 # Importar un Dataset dentro de RStudio
 Para importar un dataset dentro de RStudio nos dirigimos a **Environment** > **From Text (base)** > En la opción **Name** nombrar como **orangeec**, en la opción  **Heading** colocar **Yes**, verán como selecciona los **Row Headers correctos**. De lo contrario les aparecerá V1, V2, V3, V4,… como Row Headers y se les hará mas complicado utilizar el Dataset.
