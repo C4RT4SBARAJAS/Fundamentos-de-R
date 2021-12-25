@@ -84,9 +84,9 @@ Orange Economy tiene las siguientes **13 variables**:
 8. **Unemployment (Desempleo)**
 9. **% pop below poverty line (% de la población por debajo de la línea de pobreza)**
 10. **Internet penetration % population (Penetración de internet)**
-11. **Median age ()**
-12. **% pop 25-54 ()**
-13. **Education invest % GDP ()**
+11. **Median age (Mediana en la edad)**
+12. **% pop 25-54 (% de la población de 25-24 años)**
+13. **Education invest % GDP (Invesión en educación)**
 
 # Importar un Dataset dentro de RStudio
 Para importar un dataset dentro de RStudio nos dirigimos a **Environment** > **From Text (base)** > En la opción **Name** nombrar como **orangeec** > En la opción  **Heading** colocar **Yes**, verán como selecciona los **Row Headers correctos**. De lo contrario les aparecerá V1, V2, V3, V4,… como Row Headers y se les hará mas complicado utilizar el Dataset > Dejar los demás valores por defecto > **Click en Import**.
