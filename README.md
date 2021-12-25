@@ -117,3 +117,35 @@ Para visualizar el contenido de la variable ejecutamos el nombre de la variable:
 X
 ```
 
+## Preguntar a la Documentación de R
+Al visualizar por primera vez nuestro **Dataset mtcars**, talvés tengamos la pregunta de qué significan sus variables abreviadas. Para responder a esta pregunta **podemos preguntar a la Documentación de R** de la siguiente manera:
+
+```r
+?mtcars
+```
+
+Donde nos muestra la siguiente respecto al Dataset mtcars:
+
+**Format**
+
+**A data frame** with **32 observations** on **11 (numeric) variables**.
+
+[, 1]	**mpg**	Miles/(US) gallon
+[, 2]	**cyl**	Number of cylinders
+[, 3]	**disp**	Displacement (cu.in.)
+[, 4]	**hp**	Gross horsepower
+[, 5]	**drat**	Rear axle ratio
+[, 6]	**wt**	Weight (1000 lbs)
+[, 7]	**qsec**	1/4 mile time
+[, 8]	**vs**	Engine (0 = V-shaped, 1 = straight)
+[, 9]	**am**	Transmission (0 = automatic, 1 = manual)
+[,10]	**gear**	Number of forward gears
+[,11]	**carb**	Number of carburetors
+
+## Tipos de Datos en R
+
+- **num** (numeric)
+- **str** (string)
+- **log** (logical)
+- **int** (integer)
+- **dec** (decimal)
