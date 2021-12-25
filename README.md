@@ -88,12 +88,12 @@ Orange Economy tiene las siguientes **13 variables**:
 12. **% pop 25-54 (% de la población de 25-24 años)**
 13. **Education invest % GDP (Invesión en educación)**
 
-# Importar un Dataset dentro de RStudio
+## Importar un Dataset dentro de RStudio
 Para importar un dataset dentro de RStudio nos dirigimos a **Environment** > **From Text (base)** > En la opción **Name** nombrar como **orangeec** > En la opción  **Heading** colocar **Yes**, verán como selecciona los **Row Headers correctos**. De lo contrario les aparecerá V1, V2, V3, V4,… como Row Headers y se les hará mas complicado utilizar el Dataset > Dejar los demás valores por defecto > **Click en Import**.
 
 Ahora nuestro Dataset esta agregado en el **Ambiente de trabajo** de RStudio bajo el nombre de **arongeec** y está listo para usarse.
 
-# Crear un Script en RStudio
+## Crear un Script en RStudio
 Para crear un Script en RStudio nos dirigimos a **File** > **New File** > **R Script**. 
 
 Para **Visualizar o generar un Output de nuestro Dataset** escribimos el siguente código en el R Script o en la Consola de R:
@@ -102,6 +102,18 @@ Para **Visualizar o generar un Output de nuestro Dataset** escribimos el siguent
 View(orangeec)
 ```
 
+# Variables en R
+**Las variables son conceptos básicos en programación** y **nos ahorran mucho tiempo**, por ejemplo, si tenemos varios datos: A, B, C, D, E, etc; y los necesitamos llamar recurrentemente para hacer unos calculos, los podemos meter en una variable que se llame **X** y simplemente cuando necesitemos la varible llamamos **X**, si necesidad de estar llamando A, B, C, D, E, etc. Entonces para eso son útiles las variables. Veamos unos ejemplos:
 
+```r
+Nombre_de_la_Variable <- función o contenido
 
+X <- 86
+```
+
+Para visualizar el contenido de la variable ejecutamos el nombre de la variable:
+
+```r
+X
+```
 
