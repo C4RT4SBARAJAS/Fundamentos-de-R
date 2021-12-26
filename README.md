@@ -155,7 +155,7 @@ Los vectores son entes matemáticos que se usan para **guardar data de cierto ti
 
 Carácter:
 ```r
-vector_str <- c(Lunes, Martes, Miercoles, Jueves, Viernes)
+vector_str <- c("Lunes", "Martes", "Miercoles", "Jueves", "Viernes")
 ```
 Númerico:
 ```r

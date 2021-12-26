@@ -73,7 +73,7 @@ mtcars_new <- transform(mtcars_new, wt = (wt*1000)/2.20462)
 
 # Vectores en R -----------------------------------------------------------
 # Caracter:
-vector_str <- c(Lunes, Martes, Miercoles, Jueves, Viernes)
+vector_str <- c("Lunes", "Martes", "Miercoles", "Jueves", "Viernes")
 
 # Númerico:
 vector_num <- c(20, 35, 25, 50, 35)
