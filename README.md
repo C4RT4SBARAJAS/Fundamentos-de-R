@@ -170,8 +170,8 @@ vector_logi <- c(TRUE, FALSE, FALSE, TRUE, TRUE)
 Para que una tabla en R se considere matriz **debe tener los mismos tipos de datos**, pudiendo ser numérico, carácter o lógico. Si tuviera datos diferentes sería un data.frame. Y la matriz se lee **filas x columnas**,  *por ejemplo, 2 filas x 5 columnas (2x5)*.
 
 ```r
-     [,1] [,2] [,3] [,4] [,5]
-[1,]   20   35   25   50   35
-[2,]   10   15   30   25   15
+#     [,1] [,2] [,3] [,4] [,5]
+# [1,]   20   35   25   50   35
+# [2,]   10   15   30   25   15
 ```
 
