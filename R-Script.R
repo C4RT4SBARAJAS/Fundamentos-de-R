@@ -79,5 +79,5 @@ vector_str <- c(Lunes, Martes, Miercoles, Jueves, Viernes)
 vector_num <- c(20, 35, 25, 50, 35)
 
 # Logico:
-vector_log <- c(TRUE, FALSE, FALSE, TRUE, TRUE)
+vector_logi <- c(TRUE, FALSE, FALSE, TRUE, TRUE)
 
