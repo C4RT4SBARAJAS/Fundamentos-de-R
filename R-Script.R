@@ -79,14 +79,17 @@ mtcars_new <- transform(mtcars_new, wt = (wt*1000)/2.20462)
 
 Tiempo_estudio_videos <- c(Lunes = 20, Martes = 35, Miercoles = 25, Jueves = 50, Viernes = 35)
 Tiempo_estudio_lecturas <- c(Lunes = 10, Martes = 15, Miercoles = 30, Jueves = 25, Viernes = 15)
-Tiempo_estudio_diario_total <- Tiempo_estudio_videos + Tiempo_estudio_lecturas
 
+Tiempo_estudio_diario_total <- Tiempo_estudio_videos + Tiempo_estudio_lecturas
+print(Tiempo_estudio_diario_total)
 
 
 # Matrices en R -----------------------------------------------------------
 # Tiempo de estudio en minutos de Lunes a Viernes:
+?matrix
 
 # Responder a la pregunta ¿Cual es el tiempo de estudio para cada día?
-Tiempo_estudio_diario_total <- matrix(c(Tiempo_estudio_videos, Tiempo_estudio_lecturas), nrow = 2, ncol = 5, byrow = TRUE, dimnames = list(c("Tiempo de estudio en videos", "Tiempo de estudio en lecturas"), c("Lunes", "Martes", "Miercoles", "Jueves", "Viernes")))
 
+tiempo_estudio_diario_total <- matrix(c(Tiempo_estudio_videos, Tiempo_estudio_lecturas), nrow = 2, ncol = 5, byrow = TRUE, dimnames = list(c("Tiempo de estudio en videos", "Tiempo de estudio en lecturas"), c("Lunes", "Martes", "Miercoles", "Jueves", "Viernes")))
 
+colSums(tiempo_estudio_diario_total)
