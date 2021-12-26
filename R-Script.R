@@ -72,12 +72,21 @@ mtcars_new <- transform(mtcars_new, wt = (wt*1000)/2.20462)
 
 
 # Vectores en R -----------------------------------------------------------
-# Caracter:
-vector_str <- c("Lunes", "Martes", "Miercoles", "Jueves", "Viernes")
+# Tiempo de estudio en minutos de Lunes a Viernes:
+?vector
 
-# Númerico:
-vector_num <- c(20, 35, 25, 50, 35)
+# Responder a la pregunta ¿Cual es el tiempo de estudio para cada día?
 
-# Logico:
-vector_logi <- c(TRUE, FALSE, FALSE, TRUE, TRUE)
+Tiempo_estudio_videos <- c(Lunes = 20, Martes = 35, Miercoles = 25, Jueves = 50, Viernes = 35)
+Tiempo_estudio_lecturas <- c(Lunes = 10, Martes = 15, Miercoles = 30, Jueves = 25, Viernes = 15)
+Tiempo_estudio_diario_total <- Tiempo_estudio_videos + Tiempo_estudio_lecturas
+
+
+
+# Matrices en R -----------------------------------------------------------
+# Tiempo de estudio en minutos de Lunes a Viernes:
+
+# Responder a la pregunta ¿Cual es el tiempo de estudio para cada día?
+Tiempo_estudio_diario_total <- matrix(c(Tiempo_estudio_videos, Tiempo_estudio_lecturas), nrow = 2, ncol = 5, byrow = TRUE, dimnames = list(c("Tiempo de estudio en videos", "Tiempo de estudio en lecturas"), c("Lunes", "Martes", "Miercoles", "Jueves", "Viernes")))
+
 
