@@ -149,3 +149,20 @@ Donde nos muestra la siguiente respecto al Dataset mtcars:
 - **log** (logical)
 - **int** (integer)
 - **dec** (decimal)
+
+## Vectores en R
+Los vectores son entes matemáticos que se usan para **guardar data de cierto tipo**, data númerica, de carácteres, o data logica, pero solamente de un tipo, y para eso **utilizamos contenedores C**. Por ejemplo, los siguientes vectores muestran los minutos que le dedicamos a estudiar los primos 5 días a la semana:
+
+Carácter:
+```r
+# Minutos que le dedicamos a estudiar de Lunes a Viernes:
+vector_str <- c(Lunes, Martes, Miercoles, Jueves, Viernes)
+```
+Númerico:
+```r
+vector_num <- c(20, 35, 25, 50, 35)
+```
+Logico:
+```r
+vector_log <- c(TRUE, FALSE, FALSE, TRUE, TRUE)
+```
