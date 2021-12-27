@@ -119,8 +119,44 @@ colSums(tiempo_estudio_diario_matriz)
 tiempo_estudio_diario_matriz[1,5]
 
 
-  
+# Operadores lógicos ------------------------------------------------------
+
+# Responder a la pregunta utilizando el dataset mtcars ¿Qué carros tienen menos de determinados cilindros?
+
+mtcars_new[mtcars_new$cyl<6,]
+mtcars_new[mtcars_new$cyl>6,]
+
+# También podemos responder la pregunta utilizando la función:
+?subset
+
+subset(mtcars_new, cyl<6, select = cyl)
+subset(mtcars_new, cyl>6, select = cyl)
+
+# Responder a la pregunta utilizando el dataset orangeec ¿Qué paises tienen un PIP Percápita (GDP.PC) mayor o igual a 15,000 dolares?
+
+orangeec[orangeec$GDP.PC>=15000,]
+
+subset(orangeec, GDP.PC>=15000, select = c(Country, GDP.PC))
+
+# Responder a la pregunta ¿Qué paises tienen un aporte a su PIP a través de la Economía Naranja (Creat.Ind...GDP) que sea menor o igual al 2%?
+
+orangeec[orangeec$Creat.Ind...GDP<=2,] #Los NA significan que no hay valores para analizar de la variable que estamos utilizando.
+
+subset(orangeec, Creat.Ind...GDP<=2, select = c(Country, Creat.Ind...GDP))
+
+# Responder a la pregunta utilizando el dataset orangeec ¿Cuales son los paises cuya penetración de internet (Internet.penetration...population) sea mayor al 80% y además, que la inversión en educación que hace ese país con respecto a su PIP (Education.invest...GDP) sea mayor al 4.5%?
+
+subset(orangeec, Internet.penetration...population>80 & Education.invest...GDP>4.5, select = c(Country, Internet.penetration...population, Education.invest...GDP))
+
+# Responder la pregunta ¿Cual es el aporte en PIP de Economía Naranja (Creat.Ind...GDP) los paises cuya penetración de internet (Internet.penetration...population) sea mayor al 80% y además, que la inversión en educación que hace ese país con respecto a su PIP (Education.invest...GDP) sea mayor al 4.5%
+
+subset(orangeec, Internet.penetration...population>80 & Education.invest...GDP>4.5, select = c(Country, Creat.Ind...GDP)) # Aquí nos es útil el argumento select
 
 
+# Cambiar el nombre a una variable ----------------------------------------
+# A continuación cambiaremos el nombre de la variable de aporte en PIP de Economía Naranja. Es decir: (Creat.Ind...GDP)
+
+# Debido a que utilizaremos una función que no esta disponible en R básico instalaremos un paquete que la contiene:
+install.packages("plyr")
 
 

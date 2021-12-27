@@ -181,7 +181,7 @@ matrix(data = NA, nrow = 1, ncol = 1, byrow = FALSE, dimnames = NULL)
 ```
 
 ## Operadores para comparar y ubicar datos
-| Operadores | Interpretación |
+| Operadores lógicos | Interpretación |
 | ------------ | ------------ |
 | `==` | Igual |
 | `!=` | No igual (Diferente) |
@@ -192,5 +192,4 @@ matrix(data = NA, nrow = 1, ncol = 1, byrow = FALSE, dimnames = NULL)
 | `|` | O |
 | `!` | No |
 | `%in%` | Buscar algo que esté en el dataset |
-|  |  |
 
