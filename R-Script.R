@@ -159,4 +159,10 @@ subset(orangeec, Internet.penetration...population>80 & Education.invest...GDP>4
 # Debido a que utilizaremos una función que no esta disponible en R básico instalaremos un paquete que la contiene:
 install.packages("plyr")
 
+# Para activar el paquete utilizamos la siguiente función:
+library(plyr)
 
+# Para renombrar la variable utilizamos la función rename:
+?rename
+
+orangeec <- rename(orangeec, replace = c("Creat.Ind...GDP"="Aporte.Ec.Nja"))

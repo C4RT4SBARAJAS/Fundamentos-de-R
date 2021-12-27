@@ -193,3 +193,25 @@ matrix(data = NA, nrow = 1, ncol = 1, byrow = FALSE, dimnames = NULL)
 | `!` | No |
 | `%in%` | Buscar algo que esté en el dataset |
 
+## Instalar paquetes en R
+Para instalar un paquete en R utilizamos la siguiente función:
+```r
+install.packages("plyr")
+```
+
+Output en la Consola:
+
+```r
+Installing package into ‘/home/hcartas/R/x86_64-pc-linux-gnu-library/4.1’
+.
+.
+.
+* DONE (plyr)
+The downloaded source packages are in ‘/tmp/RtmppEuz0V/downloaded_packages’
+```
+
+Para activar el paquete despues de su instalación utilizamos la siguiente función:
+
+```r
+library(plyr)
+```
