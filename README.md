@@ -175,3 +175,22 @@ Para que una tabla en R se considere matriz **debe tener los mismos tipos de dat
 # [2,]   10   15   30   25   15
 ```
 
+Para crear una matriz utilizamos la función:
+```r
+matrix(data = NA, nrow = 1, ncol = 1, byrow = FALSE, dimnames = NULL)
+```
+
+## Operadores para comparar y ubicar datos
+| Operadores | Interpretación |
+| ------------ | ------------ |
+| `==` | Igual |
+| `!=` | No igual (Diferente) |
+| `<` | Menor que |
+| `>` | Mayor que |
+| `<=` | Menor o igual que |
+| `>=` | Mayor o igual que |
+| `|` | O |
+| `!` | No |
+| `%in%` | Buscar algo que esté en el dataset |
+|  |  |
+

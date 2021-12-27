@@ -93,3 +93,34 @@ print(Tiempo_estudio_diario_total)
 tiempo_estudio_diario_total <- matrix(c(Tiempo_estudio_videos, Tiempo_estudio_lecturas), nrow = 2, ncol = 5, byrow = TRUE, dimnames = list(c("Tiempo de estudio en videos", "Tiempo de estudio en lecturas"), c("Lunes", "Martes", "Miercoles", "Jueves", "Viernes")))
 
 colSums(tiempo_estudio_diario_total)
+
+
+# Agregar nuevas filas y columnas a una matriz ----------------------------
+# Para agregar una nueva fila:
+?rbind
+
+tiempo_estudio_diario_matriz <- tiempo_estudio_diario_total
+
+tiempo_estudio_diario_matriz <- rbind(tiempo_estudio_diario_matriz, "Tiempo de estudio en escuela" = c(40, 50, 35, 40, 50))
+
+# Para agregar una nueva columna:
+tiempo_estudio_diario_matriz <- cbind(tiempo_estudio_diario_matriz, "Sabado" = c(40, 35, 50))
+
+# Responder nuevamente a la pregunta ¿Cual es el tiempo de estudio para cada día?
+
+colSums(tiempo_estudio_diario_matriz)
+
+
+# Ubicar elementos en una matriz ------------------------------------------
+# Para ubicar un elemento usamos los [corchetes], el primer número es la fila [1,], el segundo número es la columna [1, 5].
+
+# Responder a la pregunta ¿Cuantos minutos le dedicamos a estudiar en videos el día viernes?
+
+tiempo_estudio_diario_matriz[1,5]
+
+
+  
+
+
+
+
