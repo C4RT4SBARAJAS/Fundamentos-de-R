@@ -173,3 +173,18 @@ orangeec <- rename(orangeec, replace = c("Creat.Ind...GDP"="Aporte.Ec.Nja"))
 
 variable_categorica <- c("Básico", "Intermedio", "Avanzado")
 print(variable_categorica)
+
+
+# Echar un vistazo a nuestro dataset --------------------------------------
+# Para visualizar los 6 primeras filas de nuestro dataset:
+?head
+head(mtcars_new)
+head(orangeec, n = 10) # Primeas 10 filas
+
+# Para visualizar los últimas 6 filas de nuestro dataset:
+?tail
+tail(orangeec)
+tail(mtcars_new, n = 5) # Últimas 5 filas
+
+# Otra manera de visualizar la estructura de nuestro dataset:
+install.packages("dplyr")

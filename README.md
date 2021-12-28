@@ -144,11 +144,12 @@ Donde nos muestra la siguiente respecto al Dataset mtcars:
 
 ## Tipos de Datos en R
 
-- **num** (numeric)
+- **num** o **dbl** (numeric o double)
 - **str** (string)
 - **logi** (logical)
 - **int** (integer)
 - **dec** (decimal)
+- **fct** (factor)
 
 ## Vectores en R
 Los vectores son entes matemáticos que se usan para **guardar data de cierto tipo**, data númerica, de carácteres, o data logica, pero solamente de un tipo, y para eso **utilizamos contenedores C**. Por ejemplo, los siguientes vectores muestran los minutos que le dedicamos a estudiar viendo videos los primos 5 días de la semana:
@@ -216,9 +217,10 @@ Para activar el paquete despues de su instalación utilizamos la siguiente funci
 library(plyr)
 ```
 
-## Factores y listas en R
+## Factores en R
 Los **factores** son un tipo de dato que tiene **variables categoricas**, es decir solamente **palabras**, **labels** o **etiquetas**. Por ejemplo, el nivel de conocimiento de este lenguaje de programación:
 
 ```r
 variable_categorica <- c("Básico", "Intermedio", "Avanzado")
 ```
+
