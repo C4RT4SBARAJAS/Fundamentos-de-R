@@ -190,7 +190,7 @@ matrix(data = NA, nrow = 1, ncol = 1, byrow = FALSE, dimnames = NULL)
 | `>` | Mayor que |
 | `<=` | Menor o igual que |
 | `>=` | Mayor o igual que |
-| `|` | O |
+| `\|` | O |
 | `!` | No |
 | `%in%` | Buscar algo que esté en el dataset |
 
