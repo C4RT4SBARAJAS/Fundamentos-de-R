@@ -187,4 +187,23 @@ tail(orangeec)
 tail(mtcars_new, n = 5) # Últimas 5 filas
 
 # Otra manera de visualizar la estructura de nuestro dataset:
+# Primero instalamos y activamos el paquete que contiene la función:
 install.packages("dplyr")
+library(dplyr)
+
+?glimpse
+glimpse(orangeec)
+glimpse(mtcars)
+
+
+
+# Listas en R -------------------------------------------------------------
+# Las listas son super objetos que nos permiten almacernar cualquier otro tipo de objetos.
+
+vector <- c(1:8)
+matriz <- matrix(1:9, nrow = 3, ncol = 3)
+data_frame <- mtcars[1:4,]
+
+# Almacenamos todos los objetos anteriores en la siguiente lista:
+lista <- list(vector, matriz, data_frame)
+print(lista)

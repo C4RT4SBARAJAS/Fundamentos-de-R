@@ -224,3 +224,29 @@ Los **factores** son un tipo de dato que tiene **variables categoricas**, es dec
 variable_categorica <- c("Básico", "Intermedio", "Avanzado")
 ```
 
+## Listas en R
+Este es un **super objeto** que nos permite **almacenar cualquier otro tipo de objetos**, nos permite almacernar **vectores**, **matrices**, **dataframes**. Todo lo podemos meter en una lista.
+
+## EDA: Exploratory Data Analysis
+EDA (Analisis Exploratorio de Datos) consiste en la importancia de visualizar los datos antes de enfocarnos en las formulas estadísticas, es como tener un datset, imaginarnos que son unos puntos y que esos puntos son pintura en un balde y los lanzamos a un lienzo en blanco para ver la forma en la que caen, esto nos da pista sobre la forma de los datos que es muy importante para la interpretación.
+
+
+![](https://i.imgur.com/0H5IcaH.png)
+
+![](https://i.imgur.com/WfTQBVL.png)
+
+![](https://i.imgur.com/wiL4AUh.png)
+
+![](https://i.imgur.com/yNl0SiE.png)
+
+![](https://i.imgur.com/motJPcv.png)
+
+![](https://i.imgur.com/2M1hj50.png)
+
+![](https://i.imgur.com/jgOspRz.png)
+
+![](https://i.imgur.com/TwAYaYG.png)
+
+¿Por qué es importante la visualización de los datos antes de las formulas estadísticas?
+Imaginemos que 
+En nuestra estadística descriptiva nos encontramos que todos nuestros datasets presenta la misma media, varianza, desviación estandar, correlación y recta de regresión. Etonces porsupusto pensamos que debio haber un error porque todos los datasets que estan ubicados en diferentes puntos de una cuidad no pueden tener el mismo comportamiento de clientes.
