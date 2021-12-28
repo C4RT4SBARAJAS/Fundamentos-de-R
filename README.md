@@ -215,3 +215,10 @@ Para activar el paquete despues de su instalación utilizamos la siguiente funci
 ```r
 library(plyr)
 ```
+
+## Factores y listas en R
+Los **factores** son un tipo de dato que tiene **variables categoricas**, es decir solamente **palabras**, **labels** o **etiquetas**. Por ejemplo, el nivel de conocimiento de este lenguaje de programación:
+
+```r
+variable_categorica <- c("Básico", "Intermedio", "Avanzado")
+```

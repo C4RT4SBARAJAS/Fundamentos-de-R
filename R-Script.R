@@ -166,3 +166,10 @@ library(plyr)
 ?rename
 
 orangeec <- rename(orangeec, replace = c("Creat.Ind...GDP"="Aporte.Ec.Nja"))
+
+
+# Factores en R -----------------------------------------------------------
+# Los factores son datos de tipo categorico y para crearlos nos aseguramos de definir etiquetas o palabras que definen esas categorias. Por ejemplo, el nivel de conocimiento acerca de este lenguaje de programación:
+
+variable_categorica <- c("Básico", "Intermedio", "Avanzado")
+print(variable_categorica)
