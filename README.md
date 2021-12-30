@@ -328,12 +328,11 @@ Entonces decimos ordenar estos datos de menor a mayor. Y cada vez que uno ordena
 
 y qué pasa cuando nos dirigimos al eje x a la mitad de la recta y levantamos una línea perpendicular al eje y. Entonces encontramos el punto que esta en la mitad. Y como está a la mitad del eje x, divide nuestros datos en dos bloques. 50% hacia abajo y 50% hacia arriba. 
 
-![](https://i.imgur.com/cctMKEs.png)
-
 Entonces podemos decir que el 50% de nuestras tiendas evaluadas lograron una calificación menor o por debajo de 73.2.
 
-![](https://i.imgur.com/bjjm7K9.png)
+![](https://i.imgur.com/cctMKEs.png)
+
 
 O que la mitad de las tinedas logró una calificación superior a 73.2.
 
-![](https://imgur.com/20SeRkL)
+![](https://i.imgur.com/loZbOdE.png)
