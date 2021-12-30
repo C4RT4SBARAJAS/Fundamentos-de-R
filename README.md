@@ -228,25 +228,44 @@ variable_categorica <- c("Básico", "Intermedio", "Avanzado")
 Este es un **super objeto** que nos permite **almacenar cualquier otro tipo de objetos**, nos permite almacernar **vectores**, **matrices**, **dataframes**. Todo lo podemos meter en una lista.
 
 ## EDA: Exploratory Data Analysis
-EDA (Analisis Exploratorio de Datos) consiste en la importancia de visualizar los datos antes de enfocarnos en las formulas estadísticas, es como tener un datset, imaginarnos que son unos puntos y que esos puntos son pintura en un balde y los lanzamos a un lienzo en blanco para ver la forma en la que caen, esto nos da pista sobre la forma de los datos que es muy importante para la interpretación.
+**EDA (Analisis Exploratorio de Datos)** consiste en la importancia de visualizar los datos antes de enfocarnos en las formulas estadísticas. 
 
+Es como tener un datset, imaginarnos que son unos puntos y que esos puntos son pintura en un balde y los lanzamos a un lienzo en blanco para ver la forma en la que caen, esto nos da pista sobre la forma de los datos que es muy importante para la interpretación.
 
 ![](https://i.imgur.com/0H5IcaH.png)
 
+¿Por qué es importante la visualización de los datos antes que las formulas estadísticas?
+Imaginemos el siguiente ejemplo, imaginemos que todos somos socios de una cadena de supemercados, tenemos 4 puntos de venta, y nuestros clientes se han quejado porque están haciendo filas muy largas a la hora de pagar en caja a cierta hora del día.
+
 ![](https://i.imgur.com/WfTQBVL.png)
+
+Como queremos resolver ese problema decidimos hacer unas mediciones de tiempo en esos cuatro puntos de venta durante ciertos días y bajo diferentes situaciones: cuando dejamos solo 1 caja atendiendo, cuando dejamos 2, y así hasta que están todas nuestras cajas atendiendo, que son 8. Hacemos esto durante unas semanas y reunimos los datos.
 
 ![](https://i.imgur.com/wiL4AUh.png)
 
+Ahora que tenemos nuestros datos hacemos nuestra estadística descriptiva para ver que paso, qué medidas vamos a tomar para corregir ese error. 
+
 ![](https://i.imgur.com/yNl0SiE.png)
+
+Y entonces nos encontramos que la media de cada una de las variables x para cada punto de venta (dataset) es 9, y lo mismo pasa con la varianza, la desviación estándar, la correlación y la recta de regresión. Y por supuesto pensamos que debió haber un error porque los cuatro supermercados que están ubucados en diferentes puntos de una ciudad no pueden tener el mismo comportamiento de los clientes, esto es imposible. Entonces asumimos que alguien que alguien tomó un dataset y lo copió tres veces y nos quedo la replica tres veces del mismo dataset, eso podría pasar.
 
 ![](https://i.imgur.com/motJPcv.png)
 
+Entonces pedimos nuestros **datos crudos**. Y tenemos una tabla con los datos para cada uno de los puntos de venta. 
+
+Para el primer punto de venta en donde esta la flecha ➡ podemos ver que para x tiene el valor de 5, y se repite para el punto de venta 2 y 3, pero para el 4 este es diferente, y si revisamos no tenemos siempre las mismas x ni las mismas y. Entonces nos sorprendemos aún más porque nadie copio dataset, los datos si son diferentes.
+
 ![](https://i.imgur.com/2M1hj50.png)
+
+Después de haber revisado todas las formulas estadísticas decidimos visualizar los datos.
+
+Nos encontramos con que efectivamente los 4 datsets tienen la misma recta de regresión pero tienen formas diferentes, conportamientos diferentes:
 
 ![](https://i.imgur.com/jgOspRz.png)
 
+Lo que acabamso de ver, es un concepto en estadística muy fuerte que hay que tener en cuenta, y se llama el **Cuarteto de Anscombe**. Y lo que nos dice este cuarteto es la importancia de visualizar los datos antes de enfocarnos en las formulas estadísticas.
+
+Esto es super importante en Data Science para visualizar los datos.
+
 ![](https://i.imgur.com/TwAYaYG.png)
 
-¿Por qué es importante la visualización de los datos antes de las formulas estadísticas?
-Imaginemos que 
-En nuestra estadística descriptiva nos encontramos que todos nuestros datasets presenta la misma media, varianza, desviación estandar, correlación y recta de regresión. Etonces porsupusto pensamos que debio haber un error porque todos los datasets que estan ubicados en diferentes puntos de una cuidad no pueden tener el mismo comportamiento de clientes.
