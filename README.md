@@ -336,3 +336,42 @@ Entonces podemos decir que el 50% de nuestras tiendas evaluadas lograron una cal
 O que la mitad de las tinedas logró una calificación superior a 73.2.
 
 ![](https://i.imgur.com/loZbOdE.png)
+
+Si ahora nos vamos a 1/4 del camino del eje x y levantamos una línea perpendicular al eje y. Como esta al cuarto de camino diremos que el 25% de las tiendas evaluadas lograron tener una calificación inferior al 64.7 o que el 75% de las tiendas lograron una calificación superior al 64.7
+
+![](https://i.imgur.com/iXyP2AF.png)
+
+Si nos vamos a 3/4 de camino por el eje x y levantamos la perpendicular a y, podemos decir que el 75% de nuestras tiendas tienen una calificación inferiro al 76.7 o que el 25% de las tiendas logró una calificación superiro 76.7.
+
+![](https://i.imgur.com/dal0NRP.png)
+
+Esto que acabamos de ver son los 5 números claves en estadística descriptiva que se visualizan en el box plot.
+
+El piso de la caja es el primer cuartil.
+El techo de la caja es el tercer cuartil.
+La línea que esta dentro de la caja es la mediana o segundo cuartil.
+Y las extenciones que están arriba y abajo representan el mínimo y el máximo.
+
+![](https://i.imgur.com/ZvydObJ.png)
+
+Si se dificulta la interpretación en sentido vertical también se puede girar el box plot en sentido horizontal. Dejando el mínimo hacia el lado izquierdo y el máximo hacia el lado derecho. La línea que está dentro de la caja es el segundo cuartil y los otros lados de la caja son primer cuarti y tercer cuartil.
+
+![](https://i.imgur.com/7tKGc9G.png)
+
+Reto:
+
+![](https://i.imgur.com/SnMzQ4i.png)
+
+Veamos la diferencia en la interpretación de un box pot y una gráfica de pastel.
+
+Si grafícamos en un box plot la calificación correspondiente a nuestros punto de venta para este ejemplo, vemos que el segundo o cuarti o la mediana es 6, entonces decimos que la mitad de los puntos lograron una calificación superior a 6 o que la mitad logró una calificación inferior a 6.
+
+![](https://i.imgur.com/XEM6piS.png)
+
+Si lo queremos ver en porcentaje, la grafíca de pastel nos dice que solo el 30% porciento logró una calificación de 6, porque hay 3 números 6 de un total de 10 tiendas evaluadas en este ejemplo.
+
+![](https://i.imgur.com/uZjFjiM.png)
+
+Sería un error decir que, el 50% de las tiendas logró una calificación de 6, porque tendría que ser una grafica de pastel como se muestra a continuación, y no es verdad. Para que fuera el 50% porciento tendríamos que tener 5 calificaciones de 6 en las 10 tiendas evaluadas.
+
+![](https://i.imgur.com/oWL0GGb.png)
