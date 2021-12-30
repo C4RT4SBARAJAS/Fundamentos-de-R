@@ -308,3 +308,32 @@ Por ejemplo, tenemos un scatterplot que nos cruza las variables Número de cajas
 Esta nos muestra 5 elementos claves en estadística descriptiva, que son el mínimo, el máximo, el 1er cuartil, la mediana o el 2do cuartil, y el 3er cuartil. 
 
 Antes de gráfica es importante saber interpretar.
+
+## Box Plot y su interpretación
+Para poder interpretar el box plot imaginemos el siguiente ejemplo, imaginemos que somos los directores de una cadena de ropa en 4 países y tenemos 197 tiendas.
+
+Hemos evaluado la calificación al servicio y se nos genera una tabla con la calificación a esas 197 tiendas:
+
+![](https://i.imgur.com/pYnPspS.png)
+
+Al ver nos datos en forma de tabla no es facil poder extraer información ahí. Poder ver cual fue la califiación más alta o más baja, y poder hacer una interpretación del comportamiento de estos datos.
+
+Entonces decidimos tomar y graficalos en un Scatterplot. Para ver que forma tienen. Entonces aquí vemos la calificación al servición en el eje y en una escala de 0 a 100. Donde 0 es un pésimo servicio y 100 es un excelente servicio. Cada punto en el lienzo es una tienda, y podemos ver que hay una concentración de puntos, vemos que muchas tiendas tienen una calificación entre 75 y 85, no hay tiendas por arriba de 85 y tampoco hay tiendas por debajo de 40. Solamente vemos eso. Pero no podemos presentar un informe con lo que nos muestra el scatterplot.
+
+![](https://i.imgur.com/mKPPyYE.png)
+
+Entonces decimos ordenar estos datos de menor a mayor. Y cada vez que uno ordena algo de menor a mayor, automáticamente aparece el mínimo y el máximo:
+
+![](https://i.imgur.com/15jsmAn.png)
+
+y qué pasa cuando nos dirigimos al eje x a la mitad de la recta y levantamos una línea perpendicular al eje y. Entonces encontramos el punto que esta en la mitad. Y como está a la mitad del eje x, divide nuestros datos en dos bloques. 50% hacia abajo y 50% hacia arriba. 
+
+![](https://i.imgur.com/cctMKEs.png)
+
+Entonces podemos decir que el 50% de nuestras tiendas evaluadas lograron una calificación menor o por debajo de 73.2.
+
+![](https://i.imgur.com/bjjm7K9.png)
+
+O que la mitad de las tinedas logró una calificación superior a 73.2.
+
+![](https://imgur.com/20SeRkL)
