@@ -269,3 +269,42 @@ Esto es super importante en Data Science para visualizar los datos.
 
 ![](https://i.imgur.com/TwAYaYG.png)
 
+## Tipos de visualizaciones en EDA
+
+### Histogramas
+
+![](https://i.imgur.com/KZRz7P4.png)
+
+Una de sus características es que sus barras ban pegadas. Otra es que en orden de la variable x es ascendente, sus valores van de menor a mayor. Tal y como se presenta la distribución de las frecuencias. El histograma nos presenta lo que hay y lo que no hay.
+
+### Gráfica de barras
+
+![](https://i.imgur.com/BActohP.png)
+
+Podemos converir los números a etiquetas.
+
+### Gráfica de líneas
+
+![](https://i.imgur.com/kvtCgd9.png)
+
+Los puntos si los podemos unir y se pueden armar unas líneas.
+
+### Gráfica de dispersión (Scatterplot)
+
+![](https://i.imgur.com/bvfOAxO.png)
+
+Con el Scatterplot mezclamos o cruzamos varialbes continuas o datos númericos, en ningunos de los ejes podemos tener etiquetas, palabras o variables categoricas, solamento números, y los puntos no los podemos unir.
+
+Lo armamos cada vez que vez que ubicamos una coordenamda x y una coordenada y. Son puntos independientes y no los podemos unir. Nos aseguramos de colocar la variable independiente en el eje x y la varaible dependiente en eje y.
+
+Por ejemplo, tenemos un scatterplot que nos cruza las variables Número de cajas con Tiempo espera en filas. Entonces se nos crea la grafica de puntos correspondientes a esas coordenadas.
+
+![](https://i.imgur.com/aa6woDq.png)
+
+### Gráfica de caja
+
+![](https://i.imgur.com/VUN1DQi.png)
+
+Esta nos muestra 5 elementos claves en estadística descriptiva, que son el mínimo, el máximo, el 1er cuartil, la mediana o el 2do cuartil, y el 3er cuartil. 
+
+Antes de gráfica es importante saber interpretar.
