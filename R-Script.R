@@ -207,3 +207,29 @@ data_frame <- mtcars[1:4,]
 # Almacenamos todos los objetos anteriores en la siguiente lista:
 lista <- list(vector, matriz, data_frame)
 print(lista)
+
+
+# Scatterplot en R --------------------------------------------------------
+# Paquete básico, relación entre dos variables.
+
+# Relación cilindros y millas por galón
+plot(mtcars_new$mpg ~ mtcars_new$cyl, # Elección de la variable dependiente e independiente
+     xlab = "Cilindros", ylab = "Millas por galón", # Etiquetas de nuestros ejes xy
+     main = "Relación cilindros y millas por galón") # Título de nuestro gráfico
+
+# Relación caballos de fuerza y millas por galón
+plot(mtcars_new$mpg ~ mtcars_new$hp,
+     xlab = "Caballos de fuerza", ylab = "Millas por galón",
+     main = "Relación caballos de fuerza y millas por galón")
+
+# Relación inversión en educación y desempleo
+plot(orangeec$Unemployment ~ orangeec$Education.invest...GDP,
+     xlab = "Inversión en educación ($PIB)",
+     ylab = "Desempleo",
+     main = "Relación inversión en educación y desempleo")
+
+# Relación Economía Naranja y PIB per cápita
+plot(orangeec$GDP.PC ~ orangeec$Aporte.Ec.Nja,
+     xlab = "Aporte de la economía naranja al PIB (%)",
+     ylab = "PIB per cápita",
+     main = "Relación Economía Naranja y PIB per cápita")
